@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+.customBar {
+    position: fixed;
+    background-color: rgb(124, 124, 212);
+    box-shadow: node;
+    padding: 10px 0px;
+
+}
+
+.font_header {
+    font-family: 'Staatliches', cursive;
+}
