@@ -26,7 +26,7 @@ class Header extends Component {
 
     render() {
         return (
-            <AppBar style={{backgroundColor: this.state.headerShow ?  'rgb(124, 124, 212)' : 'transparent'}} className='customBar'>
+            <AppBar style={{backgroundColor: this.state.headerShow ?  'rgb(1, 1, 146)' : 'transparent'}} className='customBar'>
                     <Toolbar>
                         <div className="header_logo">
                             <div className='font_header header_logo_venue'>Events 2019</div>
