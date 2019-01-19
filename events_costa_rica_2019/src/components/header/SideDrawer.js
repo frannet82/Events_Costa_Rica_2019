@@ -9,6 +9,7 @@ import { faGuitar } from '@fortawesome/free-solid-svg-icons/faGuitar'
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 
 const SideDrawer = (props) => {
+    const uuidv4 = require('uuid/v4');
     return (
         <Drawer
         anchor="right" 
@@ -17,7 +18,7 @@ const SideDrawer = (props) => {
 
             <List component="nav" className="customDrawer">
                 {['Events start in', 'Moments BAC', 'HighLights', 'Princing','Location'].map((text, index) => (
-                    <ListItem  className="item" button onClick={()=> console.log(text)}>
+                    <ListItem  key={uuidv4(text)} className="item" button onClick={()=> console.log(text)}>
                         <ListItemIcon  >{index % 2 === 0 ? <FontAwesomeIcon className="colorIcon1" icon={faMusic} /> : <FontAwesomeIcon className="colorIcon2" icon={faGuitar} />}</ListItemIcon>
                         {text}
                     </ListItem>

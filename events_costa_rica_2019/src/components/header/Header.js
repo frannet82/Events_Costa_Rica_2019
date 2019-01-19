@@ -3,7 +3,7 @@ import './Header.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import MenuIcon from '@material-ui/icons/Menu';
-import iconButton from '@material-ui/core/IconButton';
+import IconButton from '@material-ui/core/IconButton';
 import SideDrawer from './SideDrawer';
 
 class Header extends Component {
@@ -32,13 +32,13 @@ class Header extends Component {
                             <div className='font_header header_logo_venue'>Events 2019</div>
                             <div className='header_logo_title'>Costa Rica</div>
                         </div>
-                        <iconButton 
+                        <IconButton 
                         arial-label="Menu" 
-                        color="inherint"
+                        color="inherit"
                         onClick= {() => this.toggleDrawer(true)}
                         >
                             <MenuIcon/>
-                        </iconButton>
+                        </IconButton>
                     </Toolbar>
 
                     <SideDrawer 

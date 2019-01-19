@@ -1,5 +1,6 @@
 import React from 'react';
 import Carrousel from './Carrousel';
+import CountDown from './CountDown';
 
 const feature = () => {
     return (
@@ -10,7 +11,7 @@ const feature = () => {
                 Marco Antonio Solis
                 </div>
             </div>
-            
+            <CountDown/>
         </div>
     );
 };

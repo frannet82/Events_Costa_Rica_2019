@@ -14,13 +14,7 @@ const Carrousel = () => {
       };
 
     return (
-        <div className="carrousel_wrapper"
-        style=
-        {{
-            height: `${window.innerhight}px`,
-            overflow: 'hidden'
-        }}
-        >
+        <div className="carrousel_wrapper">
             <Slider {...settings}>
                 <div>
                 <img alt='' src={slide_one} className="carrousel_image"/>
