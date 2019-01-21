@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from './components/header/Header';
 import Feature from './components/feature/Index';
-import Bac from './components/bac';
+import Bac from './components/bac/Index';
+import Highlight from './components/highlights/Index';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <Header/>
       <Feature/>
       <Bac/>
+      <Highlight/>
       <h1>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl dolor, ultricies in libero sit amet, interdum ullamcorper nulla. Pellentesque vel posuere elit. Nullam et facilisis mi. Vivamus eros libero, varius vel tristique ac, cursus sit amet lacus. Etiam vehicula cursus erat, pretium maximus sapien luctus sed. Sed posuere mauris vitae erat aliquet semper. In malesuada eu massa nec aliquam. Quisque tempor est id condimentum sollicitudin. Nullam gravida magna elit, nec lacinia odio tempus sed. Proin semper lectus at luctus posuere. Integer sollicitudin justo ut purus sodales interdum. Aenean lobortis risus ac nulla eleifend, a facilisis metus iaculis. Fusce sed pellentesque mauris. Duis sodales ante tortor, et gravida orci accumsan eu. Etiam vitae lorem ex.
 
