@@ -1,6 +1,7 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
 
+
 const Description = () => {
     return (
         <div className="center_wrapper">
