@@ -5,6 +5,8 @@ import Feature from './components/feature/Index';
 import Bac from './components/bac/Index';
 import Highlight from './components/highlights/Index';
 import Pricing from './components/pricing/Index';
+import Location from './components/location/Index';
+import Footer from './components/footer/Index';
 
 class App extends Component {
   render() {
@@ -15,6 +17,8 @@ class App extends Component {
       <Bac/>
       <Highlight/>
       <Pricing/>
+      <Location/>
+      <Footer/>
      </div>
     );
   }
