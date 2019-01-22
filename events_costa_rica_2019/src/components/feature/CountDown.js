@@ -34,7 +34,7 @@ class CountDown extends Component {
         const uuidv4 = require('uuid/v4');
         return (
             <div className="countdown_wrapper">
-                <Slide left timeout={2000} delay={500}>
+                <Slide left timeout={2000} delay={300}>
                 <div className="countdown_top">
                     Event starts in
                 </div>

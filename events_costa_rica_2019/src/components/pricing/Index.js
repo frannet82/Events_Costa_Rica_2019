@@ -42,8 +42,6 @@ class Pricing extends Component {
         )
     ))
 
-
-
     render() {
         return (
             <div className="bck_black">
