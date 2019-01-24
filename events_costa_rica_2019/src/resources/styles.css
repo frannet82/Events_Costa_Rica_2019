@@ -108,7 +108,7 @@ footer .footer_copyright {
     color: rgb(240, 240, 240);
     font-size: 4vh;
     font-family: 'Lobster', cursive;
-    padding: 21px 70px 0px 70px;
+    padding: 3vh 6vh 0px 6vh;
     text-transform: uppercase;
 }
 
@@ -125,7 +125,7 @@ footer .footer_copyright {
 .countdown_wrapper .countdown_top {
     background: #ff4800;
     font-size: 3vh;
-    padding: 10px;
+    padding: 1vh;
     display: inline-block;
     text-transform: uppercase;
 }
@@ -133,14 +133,14 @@ footer .footer_copyright {
 .countdown_wrapper .countdown_bottom {
     display: flex;
     background: #d93d00;
-    padding: 10px 20px;
+    padding: 1vh 1.2vh;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 7vh;
     border-right: 2px solid rgb(253, 145, 137);
-    margin-right: 12px;
-    padding-right: 40px;
+    margin-right: 1vh;
+    padding-right: 7vh;
 }
 .countdown_wrapper .countdown_item:last-child .countdown_time{
     border:none;
