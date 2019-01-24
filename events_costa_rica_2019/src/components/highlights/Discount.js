@@ -19,7 +19,7 @@ class Discount extends Component {
     componentDidUpdate(){
         setTimeout(()=>{
             this.porcentage()
-        },30)
+        },70)
     }
 
     render() {

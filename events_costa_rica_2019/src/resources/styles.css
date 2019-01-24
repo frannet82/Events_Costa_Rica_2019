@@ -24,12 +24,12 @@ body {
 }
 
 .iconImage {
-    width: 20px;
-    margin-right: 10px;
+    width: 2vh;
+    margin-right: 1vh;
 }
 
 .center_wrapper {
-    width: 900px;
+    width: 60vw;
     margin:0 auto;
 }
 
@@ -62,13 +62,13 @@ header .header_logo_title {
 footer {
     padding:50px 0px;
     text-align: center;
-    font-size: 60px;
+    font-size: 6vh;
     color:#ffffff;
     background: red;
 }
 
 footer .footer_copyright {
-    font-size: 18px;
+    font-size: 2vh;
 }
 
 /*====================
@@ -153,31 +153,31 @@ footer .footer_copyright {
 }
 
 /*====================
-        VENUE NFO
+        Events
 ======================*/
 
 .vn_wrapper {
     display: flex;
-    padding: 170px 0px;
+    padding: 17vw 0vw;
 }
 
 .vn_item {
-    width:50%;
+    width: 100%;
     color:#ffffff;
     text-align: center;
 }
                       
 .vn_item .vn_outer {
-    width: 300px;
-    border: 2px solid #828282;
+    width: 24vw;
+    border: 2px solid #ffffff;
     margin: auto;
-    padding: 5px;
+    padding: 0.5vw;
 }
 
 .vn_item .vn_inner { 
-    border: 2px solid #828282;
+    border: 2px solid #8f8f8f;
     position: relative;
-    padding: 0px 20px;
+    padding: 0vh 4vh;
     transition: all 500ms ease;
 }
 
@@ -186,35 +186,35 @@ footer .footer_copyright {
 }
 
 .vn_item .vn_icon_square {
-    width: 100px;
-    height: 100px;
+    width: 7.2vw;
+    height: 7.2vw;
     position: absolute;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    top: -54px;
-    left: 100px;
+    top: -4.2vw;
+    left: 8vw;
 }
 
 .vn_item .vn_icon {
-    width: 50px;
-    height: 50px;
+    width: 3.2vw;
+    height: 3.2vw;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     position: absolute;
-    top: -30px;
-    left: 124px;
+    top: -2vw;
+    left: 10vw;
 }
 
 .vn_item .vn_title {
-    font-size: 28px;
-    margin: 90px 0px 20px 0px;
+    font-size: 4vh;
+    margin: 6vw 0px 1vw 0px;
     border-bottom: 1px solid #5d5d5d;
     padding-bottom: 10px;
 }
 
 .vn_item .vn_desc {
-    font-size: 30px;
+    font-size: 3vh;
     font-weight: 300;
     margin-bottom: 90px;
 }
@@ -228,12 +228,12 @@ footer .footer_copyright {
     text-align: center;
     text-transform: uppercase;
     color:#2c2c2c;
-    font-size: 52px;
+    font-size: 6vh;
 }
 
 .highlight_wrapper .highlight_description {
     line-height: 30px;
-    font-size: 18px;
+    font-size: 3vh;
     font-weight: 300;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
@@ -242,40 +242,40 @@ footer .footer_copyright {
 
 .discount_wrapper {
     display: flex;
-    padding: 70px 0px;
+    padding: 8vw 0px;
 }
 
 .discount_wrapper .discount_porcentage {
-    padding-right: 100px;
+    padding-right: 15vw;
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
     color: #ff4800;
-    font-size: 125px;
-    font-weight: 400;
+    font-size: 7vw;
+    font-weight: 40vw;
     display: block;
-    line-height: 120px;
+    line-height: 7vw;
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(2) {
     color: #2c2c2c;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 4vh;
+    font-weight: 40vw;
     display: block;
 }
 
 
 .discount_wrapper .discount_description h3 {
-    font-size: 34px;
-    font-weight: 100;
+    font-size: 5vh;
+    font-weight: 10vw;
     margin: 0px;
     color: #2c2c2c;
 }
 
 .discount_wrapper .discount_description p { 
     line-height: 30px;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 3vh;
+    font-weight: 30vw;
 }
 
 /*====================
@@ -283,7 +283,7 @@ footer .footer_copyright {
 ======================*/
 
 .pricing_section {
-    padding: 70px 0px;
+    padding: 5vw 0px;
 }
 
 
@@ -291,8 +291,9 @@ footer .footer_copyright {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
-    font-size: 50px;
+    font-size: 7vh;
     margin: 0;
+    padding-bottom: 5vh;
 }
 
 .pricing_wrapper {
@@ -301,37 +302,37 @@ footer .footer_copyright {
 }
 .pricing_wrapper .pricing_item{
     flex-grow: 1;
-    width: 33%;
-    padding: 20px;
+    width: 30vh;
+    padding: 3vh;
     box-sizing: border-box;
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
     border:2px solid #ffa800;
-    padding: 50px 20px;
+    padding: 3vh 2vh;
 }
 
 .pricing_inner_wrapper .pricing_title {
     color: #ffffff;
     text-align: center;
     border-bottom: 1px solid #ffa800;
-    padding-bottom: 20px;
+    padding-bottom: 2vh;
 }
 .pricing_inner_wrapper .pricing_title span:nth-child(1) {
-    font-size: 50px;
+    font-size: 6vh;
     display: block;
 }
 .pricing_inner_wrapper .pricing_title span:nth-child(2) {
     text-transform: uppercase;
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 3vh;
+    font-weight: 30vh;
 }
 .pricing_inner_wrapper .pricing_description {
     color: #b8b8b8;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 3vh;
     text-align: center;
-    padding: 20px 0px;
+    padding: 3vh 0px;
     min-height: 70px;
 }
 
@@ -357,9 +358,9 @@ footer .footer_copyright {
     background: #2c2c2c;
     color: #ffffff;
     text-transform: uppercase;
-    width: 220px;
+    width: 30vh;
     margin: 0 auto;
-    font-size: 29px;
+    font-size: 5vh;
     padding: 15px 20px;
     text-align: center;
 }

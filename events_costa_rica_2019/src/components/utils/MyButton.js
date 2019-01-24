@@ -7,10 +7,12 @@ const MyButton = (props) => {
         <Button
             href={props.link}
             variant="contained"
-            size="small"
+            size="1vh"
             style={{
                 background: `${props.bck}`,
-                color: `${props.color}`
+                color: `${props.color}`,
+                fontSize: '2vh',
+                padding: '1vh'
             }}
         >
             <img
