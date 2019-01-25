@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Events_Costa_Rica_2019/precache-manifest.6679db750b46e5db9a043ad6367bfa37.js"
+  "/Events_Costa_Rica_2019/events_costa_rica_2019/precache-manifest.3464d8d5fb699f1cc68f51ce0af17886.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Events_Costa_Rica_2019/index.html", {
+workbox.routing.registerNavigationRoute("/Events_Costa_Rica_2019/events_costa_rica_2019/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
