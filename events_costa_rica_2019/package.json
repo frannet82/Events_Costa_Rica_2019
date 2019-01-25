@@ -2,10 +2,12 @@
   "name": "events_costa_rica_2019",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://frannet82.github.io/Events_Costa_Rica_2019",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.3",
     "@material-ui/core": "1.4.3",
     "@material-ui/icons": "2.0.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-reveal": "1.2.2",
@@ -15,6 +17,8 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
